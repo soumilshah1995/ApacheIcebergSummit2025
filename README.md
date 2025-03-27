@@ -52,10 +52,10 @@ ApacheIcebergSummit2025
 
 
     - **Name:** `ApacheIcebergWorkshop2025`
-      ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
+    ![Instance Name](./static/2_2_1.png)
       
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
-      ![Amazon Linux](./static/Screenshot_2025-03-27_at_6.40.42_AM.png)
+      ![Amazon Linux](./static/2_2_1.png)
 
     - **Instance Type:** Choose `t2.large`.
       ![Instance Type](./static/Screenshot_2025-03-27_at_6.41.48_AM.png)
