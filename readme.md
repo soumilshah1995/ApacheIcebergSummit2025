@@ -441,8 +441,7 @@ ATTACH '<TABLE BUCKET ARN>'
   
 SHOW ALL TABLES;
 
-SELECT * FROM my_iceberg_catalog.s3tables.invoices ;
-
+SELECT * FROM s3_tables_db.s3tables.invoices ;
 
 ```
 ![Log into Burner Account](./static/6.png)
