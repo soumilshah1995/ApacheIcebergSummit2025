@@ -177,24 +177,29 @@ def create_iceberg_table(spark, catalog, namespace, table):
         spark: SparkSession
         target_table: Target Iceberg table path
     """
-    print(f"Creating Iceberg table if not exists: {table}")
-    spark.sql(f"CREATE NAMESPACE IF NOT EXISTS `{catalog}`.`{namespace}`")
+    try:
+        print(f"Creating Iceberg table if not exists: {table}")
+        spark.sql(f"CREATE NAMESPACE IF NOT EXISTS `{catalog}`.`{namespace}`")
 
-    spark.sql(f"""
-    CREATE TABLE IF NOT EXISTS `{catalog}`.`{namespace}`.`{table}`  (
-        invoiceid INT,
-        itemid INT,
-        category STRING,
-        price FLOAT,
-        quantity INT,
-        orderdate STRING,
-        destinationstate STRING,
-        shippingtype STRING,
-        referral STRING
-    )
-    USING iceberg
-    PARTITIONED BY (destinationstate)
-    """)
+        spark.sql(f"""
+        CREATE TABLE IF NOT EXISTS `{catalog}`.`{namespace}`.`{table}`  (
+            invoiceid INT,
+            itemid INT,
+            category STRING,
+            price FLOAT,
+            quantity INT,
+            orderdate STRING,
+            destinationstate STRING,
+            shippingtype STRING,
+            referral STRING
+        )
+        USING iceberg
+        PARTITIONED BY (destinationstate)
+        """)
+        print("Iceberg table created ")
+    except Exception as e:
+        print("Table Already Exists")
+
 
 
 def merge_data_into_iceberg_table(spark, catalog, namespace, table, df):
@@ -320,6 +325,9 @@ def main():
                              catalog="ManagedIcebergCatalog",
                              namespace="s3tables",
                              table='invoices')
+
+        print("Create table complete ")
+
         """MERGE INTO"""
         merge_data_into_iceberg_table(
             spark=spark,
@@ -328,6 +336,7 @@ def main():
             table='invoices',
             df=processed_data_df
         )
+        print("MERGE COMPLETE")
 
         # Step 3: Archive processed files
         archive_processed_files(s3_client, bucket_name, manifest_path, args.archived_prefix)
