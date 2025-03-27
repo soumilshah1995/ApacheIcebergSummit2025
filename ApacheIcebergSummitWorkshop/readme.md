@@ -45,19 +45,19 @@
 2. Click **Launch Instance** and enter the following details:
     - **Name:** `ApacheIcebergWorkshop2025`
 
-      ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
+      ![Instance Name](./static/8.png)
 
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
 
-      ![Amazon Linux](./static/Screenshot 2025-03-27 at 6.40.42 AM.png)
+      ![Amazon Linux](./static/9.png)
 
     - **Instance Type:** Choose `t2.large`.
-      ![Instance Type](./static/Screenshot 2025-03-27 at 6.41.48 AM.png)
+      ![Instance Type](./static/10.png)
 
 
 3. Leave all other settings as default and click **Launch Instance**.
 
-   ![Launch Instance](./static/Screenshot 2025-03-27 at 6.43.40 AM.png)
+   ![Launch Instance](./static/11.png)
 
 
 4. When prompted, choose **Proceed Without Key Pair**.
