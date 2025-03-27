@@ -64,7 +64,7 @@
 
 
 
-   ![Proceed Without Key Pair](./static/11.png)
+   ![Proceed Without Key Pair](./static/21.png)
 
 ---
 
