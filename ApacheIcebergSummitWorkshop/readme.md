@@ -212,7 +212,7 @@ FROM AWS Console Search for S3 Service
 ![img_2.png](static/img_2.png)
 
 Head to table Buckets
-![img_2.png](static/Screenshot 2025-03-27 at 7.30.15 AM.png)
+![img_2.png](static/19.png)
 
 ![Log into Burner Account](./static/2.png)
 
