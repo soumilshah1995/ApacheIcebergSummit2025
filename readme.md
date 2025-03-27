@@ -432,7 +432,7 @@ CREATE SECRET (
 );
   
 
-ATTACH '615954837778:s3tablescatalog/managed-iceberg-tables-615954837778' AS my_iceberg_catalog (
+ATTACH '<ACCOUNT>:s3tablescatalog/<BUCKET>' AS my_iceberg_catalog (
     TYPE ICEBERG,
     ENDPOINT_TYPE 'GLUE'
 );
