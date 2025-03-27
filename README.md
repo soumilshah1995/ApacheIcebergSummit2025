@@ -42,7 +42,6 @@ ApacheIcebergSummit2025
 
 
 
-
 ## Step 2: Create a New EC2 Instance
 
 1. In the AWS Console, search for **EC2 Service**.
@@ -67,8 +66,6 @@ ApacheIcebergSummit2025
 4. When prompted, choose **Proceed Without Key Pair**.
 
 ![Proceed Without Key Pair](./static/Screenshot_2025-03-27_at_6.45.58_AM.png)
-
-
 ---
 
 
