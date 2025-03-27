@@ -35,29 +35,23 @@ ApacheIcebergSummit2025
 
 ---
 
-
-
-
-
-
-
-
 ## Step 2: Create a New EC2 Instance
 
 1. In the AWS Console, search for **EC2 Service**.
 
-![Search EC2](./static/Screenshot_2025-03-27_at_6.50.01_AM.png)
+   ![Search EC2](./static/Screenshot_2025-03-27_at_6.50.01_AM.png)
 
 2. Click **Launch Instance** and enter the following details:
-
-
     - **Name:** `ApacheIcebergWorkshop2025`
-      ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
-      
+
+      ![Instance Name](./static/Screenshot_2025-03-27_at_6.39.50_AM.png)
+
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
+
       ![Amazon Linux](./static/Screenshot_2025-03-27_at_6.40.42_AM.png)
 
     - **Instance Type:** Choose `t2.large`.
+
       ![Instance Type](./static/Screenshot_2025-03-27_at_6.41.48_AM.png)
 
 3. Leave all other settings as default and click **Launch Instance**.
@@ -66,10 +60,9 @@ ApacheIcebergSummit2025
 
 4. When prompted, choose **Proceed Without Key Pair**.
 
-![Proceed Without Key Pair](./static/Screenshot_2025-03-27_at_6.45.58_AM.png)
+   ![Proceed Without Key Pair](./static/Screenshot_2025-03-27_at_6.45.58_AM.png)
+
 ---
-
-
 
 
 
