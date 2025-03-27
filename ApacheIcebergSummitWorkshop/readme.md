@@ -96,7 +96,7 @@
 
       ![AWS Credentials](./static/img_1.png)
 
-      ![Set Enviroment Variable](./static/Screenshot 2025-03-27 at 7.02.06 AM.png)
+      ![Set Enviroment Variable](./static/20.png)
 
 Now you're successfully connected to your EC2 instance and ready to proceed with the next steps in the workshop!
 
