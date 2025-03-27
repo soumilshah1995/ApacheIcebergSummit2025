@@ -64,7 +64,7 @@
 
 
 
-   ![Proceed Without Key Pair](./static/Screenshot 2025-03-27 at 6.45.58 AM.png)
+   ![Proceed Without Key Pair](./static/11.png)
 
 ---
 
@@ -82,7 +82,7 @@
 1. In the AWS Console, navigate to **EC2 Instances**.
 
 
-   ![EC2 Instances](./static/Screenshot 2025-03-27 at 6.53.25 AM.png)
+   ![EC2 Instances](./static/12.png)
 
 
 2. Select your instance and click **Connect**.
@@ -90,7 +90,7 @@
 3. Choose **EC2 Instance Connect**, select the **ec2-user**, and click **Connect**.
 
 
-   ![EC2 Instance Connect](./static/Screenshot 2025-03-27 at 6.54.14 AM.png)
+   ![EC2 Instance Connect](./static/13.png)
 
 4. Paste your AWS Credentials Step1.2 into Ternminal as shown in image below
 
@@ -246,7 +246,7 @@ cd ApacheIcebergSummit2025/
 aws s3 cp ./datafiles/ s3://stage-data-raw-$AWS_ACCOUNT_ID/raw/ --recursive
 
 ```
-![Log into Burner Account](./static/Screenshot 2025-03-27 at 8.57.47 AM.png)
+![Log into Burner Account](./static/14.png)
 
 
 ---
@@ -284,7 +284,7 @@ If the variables are not set, copy and paste the correct values from your AWS cr
 ![AWS Credentials](./static/img_1.png)
 
 
-![Set Enviroment Variable](./static/Screenshot 2025-03-27 at 7.02.06 AM.png)
+![Set Enviroment Variable](./static/15.png)
 
 
 3. Start the Spark 3.4 container: Use Docker to start the Spark container with the appropriate environment variables for AWS:
@@ -303,7 +303,7 @@ docker run -d --name spark-container \
 ```
 
 
-![AWS Credentials](./static/Screenshot 2025-03-27 at 9.07.37 AM.png)
+![AWS Credentials](./static/16.png)
 
 
 4. Exec into the Spark container:
@@ -361,7 +361,7 @@ spark-submit \
 
 ```
 
-![Log into Burner Account](./static/Screenshot 2025-03-27 at 9.18.22 AM.png)
+![Log into Burner Account](./static/17.png)
 
 
 8 Clean up by removing the Spark container:
