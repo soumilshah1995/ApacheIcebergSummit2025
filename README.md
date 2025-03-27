@@ -46,26 +46,27 @@ ApacheIcebergSummit2025
 
 1. In the AWS Console, search for **EC2 Service**.
 
-![Search EC2](https://github.com/soumilshah1995/ApacheIcebergSummit2025/blob/main/static/Screenshot%202025-03-27%20at%206.50.01%20AM.png)
+![Search EC2](./static/Screenshot_2025-03-27_at_6.50.01_AM.png)
 
 2. Click **Launch Instance** and enter the following details:
 
-    - **Name:** `ApacheIcebergWorkshop2025`
-      ![Instance Name](https://github.com/soumilshah1995/ApacheIcebergSummit2025/blob/main/static/Screenshot%202025-03-27%20at%206.39.50%20AM.png)
 
+    - **Name:** `ApacheIcebergWorkshop2025`
+      ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
+      
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
-      ![Amazon Linux](https://github.com/soumilshah1995/ApacheIcebergSummit2025/blob/main/static/Screenshot%202025-03-27%20at%206.40.42%20AM.png)
+      ![Amazon Linux](./static/Screenshot_2025-03-27_at_6.40.42_AM.png)
 
     - **Instance Type:** Choose `t2.large`.
-      ![Instance Type](https://github.com/soumilshah1995/ApacheIcebergSummit2025/blob/main/static/Screenshot%202025-03-27%20at%206.41.48%20AM.png)
+      ![Instance Type](./static/Screenshot_2025-03-27_at_6.41.48_AM.png)
 
 3. Leave all other settings as default and click **Launch Instance**.
 
-   ![Launch Instance](https://github.com/soumilshah1995/ApacheIcebergSummit2025/blob/main/static/Screenshot%202025-03-27%20at%206.43.40%20AM.png)
+   ![Launch Instance](./static/Screenshot_2025-03-27_at_6.43.40_AM.png)
 
 4. When prompted, choose **Proceed Without Key Pair**.
 
-![Proceed Without Key Pair](https://github.com/soumilshah1995/ApacheIcebergSummit2025/blob/main/static/Screenshot%202025-03-27%20at%206.45.58%20AM.png)
+![Proceed Without Key Pair](./static/Screenshot_2025-03-27_at_6.45.58_AM.png)
 ---
 
 
