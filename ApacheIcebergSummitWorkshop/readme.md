@@ -1,8 +1,17 @@
 # Welcome to the Apache Iceberg S3 Table Buckets Workshop
 
+![zeta-global-v1](https://github.com/user-attachments/assets/c55dbbc0-8be7-4406-9047-25314ef394ba)
+
 [Workshop Agenda and Details](https://events.bizzabo.com/700468/agenda/session/1603864)
 
-#####  Author :  Soumil Shah
+
+Soumil Shah  Senior Software  Engineer @ Zeta Global
+
+Manoj Principal Architect @Zeta Global
+
+Sekhar Sahu Staff Engineer @ Zeta Global
+
+
 
 ## Lab Steps
 
