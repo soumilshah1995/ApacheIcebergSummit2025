@@ -1,16 +1,8 @@
-ApacheIcebergSummit2025
-
-![image](https://github.com/user-attachments/assets/3a185a5f-ba91-41fe-ab51-82416b953538)
-
 # Welcome to the Apache Iceberg S3 Table Buckets Workshop
 
 [Workshop Agenda and Details](https://events.bizzabo.com/700468/agenda/session/1603864)
 
-### Members 
-* Soumil Shah  Senior Software  Engineer @ Zeta Global
-* Manoj Principal Architect @Zeta Global
-* Sekhar Sahu Staff Engineer @ Zeta Global
-* Varadaraj Ramachandraiah  Enterprise Solutions Architect at Amazon Web Services
+#####  Author :  Soumil Shah
 
 ## Lab Steps
 
@@ -19,50 +11,64 @@ ApacheIcebergSummit2025
 1. Log into your burner account and click on **Get Your AWS Credentials**.
 
 
-![Log into Burner Account](./static/1.png)
+   ![Log into Burner Account](./static/1.png)
 
 
 2. Copy these credentials into **Notepad**.
 
 
-![AWS Credentials](./static/img_1.png)
+   ![AWS Credentials](./static/img_1.png)
 
 
 3. Open the AWS Console by clicking **Open AWS Console**.
 
 
-![AWS Console](./static/1.png)
+   ![AWS Console](./static/1.png)
 
 ---
+
+
+
+
+
+
+
+
 
 ## Step 2: Create a New EC2 Instance
 
 1. In the AWS Console, search for **EC2 Service**.
 
-   ![Search EC2](./static/Screenshot_2025-03-27_at_6.50.01_AM.png)
+
+   ![Search EC2](./static/Screenshot 2025-03-27 at 6.50.01 AM.png)
 
 2. Click **Launch Instance** and enter the following details:
     - **Name:** `ApacheIcebergWorkshop2025`
 
-      ![Instance Name](./static/Screenshot_2025-03-27_at_6.39.50_AM.png)
+      ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
 
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
 
-      ![Amazon Linux](./static/Screenshot_2025-03-27_at_6.40.42_AM.png)
+      ![Amazon Linux](./static/Screenshot 2025-03-27 at 6.40.42 AM.png)
 
     - **Instance Type:** Choose `t2.large`.
+      ![Instance Type](./static/Screenshot 2025-03-27 at 6.41.48 AM.png)
 
-      ![Instance Type](./static/Screenshot_2025-03-27_at_6.41.48_AM.png)
 
 3. Leave all other settings as default and click **Launch Instance**.
 
-   ![Launch Instance](./static/Screenshot_2025-03-27_at_6.43.40_AM.png)
+   ![Launch Instance](./static/Screenshot 2025-03-27 at 6.43.40 AM.png)
+
 
 4. When prompted, choose **Proceed Without Key Pair**.
 
-   ![Proceed Without Key Pair](./static/Screenshot_2025-03-27_at_6.45.58_AM.png)
+
+
+   ![Proceed Without Key Pair](./static/Screenshot 2025-03-27 at 6.45.58 AM.png)
 
 ---
+
+
 
 
 
@@ -76,7 +82,7 @@ ApacheIcebergSummit2025
 1. In the AWS Console, navigate to **EC2 Instances**.
 
 
-![EC2 Instances](./static/Screenshot 2025-03-27 at 6.53.25 AM.png)
+   ![EC2 Instances](./static/Screenshot 2025-03-27 at 6.53.25 AM.png)
 
 
 2. Select your instance and click **Connect**.
@@ -84,13 +90,13 @@ ApacheIcebergSummit2025
 3. Choose **EC2 Instance Connect**, select the **ec2-user**, and click **Connect**.
 
 
-![EC2 Instance Connect](./static/Screenshot 2025-03-27 at 6.54.14 AM.png)
+   ![EC2 Instance Connect](./static/Screenshot 2025-03-27 at 6.54.14 AM.png)
 
 4. Paste your AWS Credentials Step1.2 into Ternminal as shown in image below
 
-   ![AWS Credentials](./static/img_1.png)
+      ![AWS Credentials](./static/img_1.png)
 
-   ![Set Enviroment Variable](./static/Screenshot 2025-03-27 at 7.02.06 AM.png)
+      ![Set Enviroment Variable](./static/Screenshot 2025-03-27 at 7.02.06 AM.png)
 
 Now you're successfully connected to your EC2 instance and ready to proceed with the next steps in the workshop!
 
@@ -200,9 +206,9 @@ Now your S3 buckets are set up, and you're ready for the next steps in the works
 
 
 
-##  Step 6: Verify Buckets Creation and Enable Integration with AWS analytics services
+##  Step 6: Verify Buckets Creation and Enable Integration with AWS analytics services 
 
-FROM AWS Console Search for S3 Service
+FROM AWS Console Search for S3 Service 
 ![img_2.png](static/img_2.png)
 
 Head to table Buckets
@@ -229,9 +235,9 @@ Head to table Buckets
 
 
 
-###  Step 7: Upload Sample CDC Dataset to S3 Buckets
+###  Step 7: Upload Sample CDC Dataset to S3 Buckets 
 
-Head over back to EC2 terminal and issue following commands
+Head over back to EC2 terminal and issue following commands 
 ```
 mkdir project 
 cd project
@@ -260,7 +266,7 @@ sudo su
 ```
 
 2. **Verify your Environment Variables:**
-   Navigate to the project directory and check your AWS environment variables:
+Navigate to the project directory and check your AWS environment variables:
 
 ```bash
 cd /home/ec2-user/project/ApacheIcebergSummit2025/
@@ -373,7 +379,7 @@ exit
 
 
 
-## Step 6: Query the data Athena
+## Step 6: Query the data Athena 
 ```sql
 SELECT * FROM "s3tables"."invoices" limit 10;
 ```
@@ -390,7 +396,7 @@ SELECT * FROM "s3tables"."invoices" limit 10;
 
 
 
-## Step 7: Query the data DuckDB
+## Step 7: Query the data DuckDB 
 
 ```bash
 duckdb 
