@@ -40,7 +40,7 @@
 1. In the AWS Console, search for **EC2 Service**.
 
 
-   ![Search EC2](./static/Screenshot 2025-03-27 at 6.50.01 AM.png)
+   ![Search EC2](./static/18.png)
 
 2. Click **Launch Instance** and enter the following details:
     - **Name:** `ApacheIcebergWorkshop2025`
