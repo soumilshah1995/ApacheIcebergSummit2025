@@ -4,6 +4,7 @@
 
 [Workshop Agenda and Details](https://events.bizzabo.com/700468/agenda/session/1603864)
 
+--------
 
 Soumil Shah  Senior Software  Engineer @ Zeta Global
 
@@ -11,7 +12,9 @@ Manoj Principal Architect @Zeta Global
 
 Sekhar Sahu Staff Engineer @ Zeta Global
 
+Varadaraj Ramachandraiah  Enterprise Solutions Architect at Amazon Web Services
 
+--------
 
 ## Lab Steps
 
