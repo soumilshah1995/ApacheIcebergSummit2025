@@ -47,31 +47,27 @@ ApacheIcebergSummit2025
 
 1. In the AWS Console, search for **EC2 Service**.
 
-
-![Search EC2](./static/Screenshot 2025-03-27 at 6.50.01 AM.png)
+![Search EC2](./static/Screenshot_2025-03-27_at_6.50.01_AM.png)
 
 2. Click **Launch Instance** and enter the following details:
 
     - **Name:** `ApacheIcebergWorkshop2025`
-      ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
+      ![Instance Name](./static/Screenshot_2025-03-27_at_6.39.50_AM.png)
 
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
-      ![Amazon Linux](./static/Screenshot 2025-03-27 at 6.40.42 AM.png)
+      ![Amazon Linux](./static/Screenshot_2025-03-27_at_6.40.42_AM.png)
 
     - **Instance Type:** Choose `t2.large`.
-      ![Instance Type](./static/Screenshot 2025-03-27 at 6.41.48 AM.png)
-
+      ![Instance Type](./static/Screenshot_2025-03-27_at_6.41.48_AM.png)
 
 3. Leave all other settings as default and click **Launch Instance**.
 
-   ![Launch Instance](./static/Screenshot 2025-03-27 at 6.43.40 AM.png)
-
+   ![Launch Instance](./static/Screenshot_2025-03-27_at_6.43.40_AM.png)
 
 4. When prompted, choose **Proceed Without Key Pair**.
 
+![Proceed Without Key Pair](./static/Screenshot_2025-03-27_at_6.45.58_AM.png)
 
-
-![Proceed Without Key Pair](./static/Screenshot 2025-03-27 at 6.45.58 AM.png)
 
 ---
 
