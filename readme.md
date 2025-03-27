@@ -432,10 +432,11 @@ CREATE SECRET (
 );
   
 
-ATTACH '<ACCOUNT>:s3tablescatalog/<BUCKET>' AS my_iceberg_catalog (
-    TYPE ICEBERG,
-    ENDPOINT_TYPE 'GLUE'
-);
+ATTACH '<TABLE BUCKET ARN>'
+    AS s3_tables_db (
+        TYPE iceberg,
+        ENDPOINT_TYPE s3_tables
+    );
   
   
 SHOW ALL TABLES;
