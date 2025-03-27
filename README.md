@@ -51,12 +51,11 @@ ApacheIcebergSummit2025
 ![Search EC2](./static/Screenshot 2025-03-27 at 6.50.01 AM.png)
 
 2. Click **Launch Instance** and enter the following details:
-    - **Name:** `ApacheIcebergWorkshop2025`
 
+    - **Name:** `ApacheIcebergWorkshop2025`
       ![Instance Name](./static/Screenshot 2025-03-27 at 6.39.50 AM.png)
 
     - **Application and OS Images (Amazon Machine Image):** Select **Amazon Linux**.
-
       ![Amazon Linux](./static/Screenshot 2025-03-27 at 6.40.42 AM.png)
 
     - **Instance Type:** Choose `t2.large`.
