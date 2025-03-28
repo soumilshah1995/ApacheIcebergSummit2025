@@ -477,7 +477,7 @@ export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query "Account" --output t
 export BUCKET_NAME=managed-iceberg-tables-$AWS_ACCOUNT_ID
 
 cd /home/ec2-user/project/ApacheIcebergSummit2025/scripts/
-python3  read_table_buckets_pyiceberg.py
+python3 scripts/read_table_buckets_pyiceberg.py 
 ```
 
 
