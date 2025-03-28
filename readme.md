@@ -254,7 +254,7 @@ Head over back to EC2 terminal and issue following commands
 mkdir project 
 cd project
 git clone https://github.com/soumilshah1995/ApacheIcebergSummit2025.git
-cd ApacheIcebergSummit2025/
+cd ApacheIcebergSummit2025/ApacheIcebergSummitWorkshop/
 aws s3 cp ./datafiles/ s3://stage-data-raw-$AWS_ACCOUNT_ID/raw/ --recursive
 
 ```
