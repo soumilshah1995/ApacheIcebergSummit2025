@@ -4,6 +4,8 @@
 
 [Workshop Agenda and Details](https://events.bizzabo.com/700468/agenda/session/1603864)
 
+This workshop at the Apache Iceberg Summit 2025 focuses on simulating a real-world data engineering scenario where CDC (Change Data Capture) files are received from a database system . Participants learn how to incrementally process these files into Apache Iceberg tables stored in S3 using Spark. Once the data is ingested, the workshop demonstrates querying Iceberg tables using multiple tools, including Athena, DuckDB, PyIceberg via  Glue IRCC endpoints. The hands-on session covers setting up an AWS environment, configuring dependencies, ingesting sample CDC datasets into Iceberg, and leveraging these query tools to explore and analyze the data efficiently. This practical approach helps participants understand incremental processing and querying in modern data lake architectures.
+
 --------
 
 Soumil Shah  Senior Software  Engineer @ Zeta Global
