@@ -283,7 +283,8 @@ sudo su
 Navigate to the project directory and check your AWS environment variables:
 
 ```bash
-cd /home/ec2-user/project/ApacheIcebergSummit2025/
+cd /home/ec2-user/project/ApacheIcebergSummit2025/ApacheIcebergSummitWorkshop
+
 echo $AWS_ACCOUNT_ID
 echo $AWS_ACCESS_KEY_ID
 echo $AWS_SECRET_ACCESS_KEY
