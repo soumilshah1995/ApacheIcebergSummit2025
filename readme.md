@@ -306,7 +306,7 @@ If the variables are not set, copy and paste the correct values from your AWS cr
 ```bash
 docker run -d --name spark-container \
     -e SPARK_MODE=master \
-    -v /home/ec2-user/project/ApacheIcebergSummit2025/:/app \
+    -v /home/ec2-user/project/ApacheIcebergSummit2025/ApacheIcebergSummitWorkshop/:/app \
     -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} \
     -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} \
     -e AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN} \
